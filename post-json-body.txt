@@ -17,7 +17,8 @@
             "statusCode": 200,
             "headers": {
               "Location": "http://localhost:7777/users/1",
-              "Content-Type": "application/json"
+              "Content-Type": "application/json",
+              "Access-Control-Allow-Origin": "*"
             },
             "body": "{\"id\":\"1\",\"name\":\"Kane\",\"age\":\"19\"}"
           }
